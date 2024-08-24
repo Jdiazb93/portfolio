@@ -1,5 +1,8 @@
 import { PrimeReactProvider } from "primereact/api";
 import Tailwind from "primereact/passthrough/tailwind";
+import Main from "@pages/mainPage";
+import "./locale/index";
+import "primeicons/primeicons.css";
 
 function App() {
   const value = {
@@ -24,7 +27,7 @@ function App() {
         ripple: value.ripple,
       }}
     >
-      <div>content</div>
+      <Main />
     </PrimeReactProvider>
   );
 }

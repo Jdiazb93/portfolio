@@ -27,6 +27,10 @@ export default defineConfig({
         find: "@interfaces",
         replacement: path.resolve(__dirname, "./src/interfaces"),
       },
+      {
+        find: "@helper",
+        replacement: path.resolve(__dirname, "./src/helper"),
+      },
     ],
   },
 });

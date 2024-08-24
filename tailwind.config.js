@@ -19,7 +19,12 @@ module.exports = {
         "lexend-semi-bold": ['"Lexend Semi Bold"'],
         "lexend-thin": ['"Lexend Thin"'],
       },
+      backgroundImage: {
+        "body-light": "url('/src/assets/images/FondoJlight.png')",
+        "body-dark": "url('/src/assets/images/FondoJdark.png')",
+      },
     },
   },
+  darkMode: ["selector"],
   plugins: [],
 };

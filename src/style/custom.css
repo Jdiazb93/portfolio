@@ -1,0 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.fondo-img {
+  filter: drop-shadow(2px 4px 6px #292929);
+}

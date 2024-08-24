@@ -27,7 +27,8 @@
       "@assets/*": ["./src/assets/*"],
       "@layout/*": ["./src/layout/*"],
       "@pages/*": ["./src/pages/*"],
-      "@interfaces/*": ["./src/interfaces/*"]
+      "@interfaces/*": ["./src/interfaces/*"],
+      "@helper/*": ["./src/helper/*"]
     }
   },
   "include": ["src"]
